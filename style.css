@@ -1,3 +1,6 @@
+h1, p {
+    text-align: center;
+}
 .klaviatura{
     width: 700px;
     margin: 0 auto;
@@ -21,7 +24,7 @@
     margin-left: 6px;
     text-align: center;
     line-height: 40px;
-    background: linear-gradient(to top, #747474, #2a2e2b);
+    background: linear-gradient(to top, #2a2e2b, #747474);
     border-radius: 5px;
 }
 .klaviatura .key:hover{
@@ -38,14 +41,14 @@
     width: 92px;
 }
 .klaviatura .capslock,.klaviatura .shiftL, .klaviatura .shiftR, .klaviatura .tab, .klaviatura .backspace, .klaviatura .del,
-.klaviatura .enter, .klaviatura .ctrlL, .klaviatura .altL, .klaviatura .ctrlR, .klaviatura .altR {
+.klaviatura .enter, .klaviatura .ctrlL, .klaviatura .altL, .klaviatura .ctrlR, .klaviatura .altR, .klaviatura .win {
 font-weight: bold;
 }
 .klaviatura .shiftR {
     width: 43px;
 }
 .klaviatura .tab{
-    width: 46px;
+    width: 92px;
 }
 .klaviatura .space{
     width: 322px;
@@ -67,4 +70,8 @@ font-weight: bold;
     color: #444;
     border: 2px solid #747474;
     border-radius: 5px;
+}
+
+.hidden {
+    display: none;
 }
