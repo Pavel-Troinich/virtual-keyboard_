@@ -19,7 +19,7 @@ document.body.insertAdjacentHTML("beforeend", `<h1>RSS Virtual Keyboard</h1>
         </div>
         <div class="row">
             <div class="key tab"><span>Tab</span></div>
-            <div class="key">
+            <div class="key" onclick="CheckAnswer()">
                 <span class="rus hidden">й</span>
                 <span class="eng">q</span>
             </div>
@@ -122,7 +122,7 @@ document.body.insertAdjacentHTML("beforeend", `<h1>RSS Virtual Keyboard</h1>
         <div class="row">
             <div class="key shiftL"><span>Shift</span></div>
             <div class="key">
-                <span>\</span>
+                <span>/</span>
             </div>
             <div class="key">
                 <span class="rus hidden">я</span>
@@ -180,4 +180,24 @@ document.body.insertAdjacentHTML("beforeend", `<h1>RSS Virtual Keyboard</h1>
         </div>
     </div>
     <p>Клавиатура создана в операционной системе Windows</p>
-    <p>Для переключения языка комбинация: левыe ctrl + alt</p>`);
+    <p>Для переключения языка комбинация: левыe Shift + Alt</p>`);
+
+const keyCodes = ['Backquote', 'Digit1', 'Digit2', 'Digit3', 'Digit4', 'Digit5', 'Digit6', 'Digit7', 'Digit8', 'Digit9', 'Digit0',
+'Minus', 'Equal', 'Backspace', 'Tab', 'KeyQ', 'KeyW', 'KeyE', 'KeyR', 'KeyT', 'KeyY', 'KeyU', 'KeyI', 'KeyO', 'KeyP', 'BracketLeft',
+'BracketRight', 'Delete', 'CapsLock', 'KeyA', 'KeyS', 'KeyD', 'KeyF', 'KeyG', 'KeyH', 'KeyJ', 'KeyK', 'KeyL', 'Semicolon', 'Quote',
+'Enter', 'ShiftLeft', 'IntlBackslash', 'KeyZ', 'KeyX', 'KeyC', 'KeyV', 'KeyB', 'KeyN', 'KeyM', 'Comma', 'Period', 'Slash', 'ArrowUp',
+'ShiftRight', 'ControlLeft', 'OSLeft', 'AltLeft', 'Space', 'AltRight', 'ControlRight', 'ArrowLeft', 'ArrowDown', 'ArrowRight'];
+
+document.addEventListener('keydown', function(event) {
+    let key = document.querySelectorAll(".key");
+    for(let i = 0; i<key.length; i++){
+        if (event.code == keyCodes[i]) {
+            key[i].classList.add('act');
+            setTimeout(() => key[i].classList.remove('act'), 200);
+        }
+    }
+});
+
+document.addEventListener('click', function(event) {
+
+});

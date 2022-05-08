@@ -1,5 +1,6 @@
 h1, p {
     text-align: center;
+    color: #444;
 }
 .klaviatura{
     width: 700px;
@@ -15,7 +16,7 @@ h1, p {
     margin-bottom: 10px;
     clear: both;
 }
-.klaviatura .key{
+.key{
     width: 40px;
     height: 40px;
     float: left;
@@ -34,6 +35,7 @@ h1, p {
 .klaviatura .key:active {
     transform: scale(.9)
 }
+
 .klaviatura .shiftL,.klaviatura .capslock, .klaviatura .enter {
     width: 89px;
 }
@@ -74,4 +76,9 @@ font-weight: bold;
 
 .hidden {
     display: none;
+}
+.act {
+    background: #b9b8b3;
+    color: rgb(0, 0, 0);
+    transform: scale(.9)
 }
