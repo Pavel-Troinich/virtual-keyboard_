@@ -201,3 +201,40 @@ document.addEventListener('keydown', function(event) {
 document.addEventListener('click', function(event) {
 
 });
+
+function switchLang (func, ...codes) {
+    let pressed = new Set();
+
+    document.addEventListener('keydown', function(event) {
+        pressed.add(event.code);
+
+        for (let code of codes) {
+            if (!pressed.has(code)) {
+            return;
+            }
+        }
+        pressed.clear();
+
+        func();
+    });
+
+    document.addEventListener('keyup', function(event) {
+        pressed.delete(event.code);
+    });
+
+}
+
+switchLang(
+    () => {
+        let rus = document.querySelectorAll('.rus');
+        let eng = document.querySelectorAll('.eng');
+        for (let elem of rus) {
+            elem.classList.toggle('hidden');
+        }
+        for (let elem of eng) {
+            elem.classList.toggle('hidden');
+        }
+    },
+    "AltLeft",
+    "ShiftLeft"
+);
