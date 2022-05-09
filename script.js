@@ -20,51 +20,51 @@ document.body.insertAdjacentHTML("beforeend", `<h1>RSS Virtual Keyboard</h1>
         <div class="row">
             <div class="key tab"><span>Tab</span></div>
             <div class="key" onclick="CheckAnswer()">
-                <span class="rus hidden">й</span>
+                <span class="rus">й</span>
                 <span class="eng">q</span>
             </div>
             <div class="key">
-                <span class="rus hidden">ц</span>
+                <span class="rus">ц</span>
                 <span class="eng">w</span>
             </div>
             <div class="key">
-                <span class="rus hidden">у</span>
+                <span class="rus">у</span>
                 <span class="eng">e</span>
             </div>
             <div class="key">
-                <span class="rus hidden">к</span>
+                <span class="rus">к</span>
                 <span class="eng">r</span>
             </div>
             <div class="key">
-                <span class="rus hidden">е</span>
+                <span class="rus">е</span>
                 <span class="eng">t</span>
             </div>
             <div class="key">
-                <span class="rus hidden">н</span>
+                <span class="rus">н</span>
                 <span class="eng">y</span>
             </div>
             <div class="key">
-                <span class="rus hidden">г</span>
+                <span class="rus">г</span>
                 <span class="eng">u</span>
             </div>
             <div class="key">
-                <span class="rus hidden">ш</span>
+                <span class="rus">ш</span>
                 <span class="eng">i</span>
             </div>
             <div class="key">
-                <span class="rus hidden">щ</span>
+                <span class="rus">щ</span>
                 <span class="eng">o</span>
             </div>
             <div class="key">
-                <span class="rus hidden">з</span>
+                <span class="rus">з</span>
                 <span class="eng">p</span>
             </div>
             <div class="key">
-                <span class="rus hidden">х</span>
+                <span class="rus">х</span>
                 <span class="eng">[</span>
             </div>
             <div class="key">
-                <span class="rus hidden">ъ</span>
+                <span class="rus">ъ</span>
                 <span class="eng">]</span>
             </div>
             <div class="key del">
@@ -74,47 +74,47 @@ document.body.insertAdjacentHTML("beforeend", `<h1>RSS Virtual Keyboard</h1>
         <div class="row">
             <div class="key capslock"><span>Caps Lock</span></div>
             <div class="key">
-                <span class="rus hidden">ф</span>
+                <span class="rus">ф</span>
                 <span class="eng">a</span>
             </div>
             <div class="key">
-                <span class="rus hidden">ы</span>
+                <span class="rus">ы</span>
                 <span class="eng">s</span>
             </div>
             <div class="key">
-                <span class="rus hidden">в</span>
+                <span class="rus">в</span>
                 <span class="eng">d</span>
             </div>
             <div class="key">
-                <span class="rus hidden">а</span>
+                <span class="rus">а</span>
                 <span class="eng">f</span>
             </div>
             <div class="key">
-                <span class="rus hidden">п</span>
+                <span class="rus">п</span>
                 <span class="eng">g</span>
             </div>
             <div class="key">
-                <span class="rus hidden">р</span>
+                <span class="rus">р</span>
                 <span class="eng">h</span>
             </div>
             <div class="key">
-                <span class="rus hidden">о</span>
+                <span class="rus">о</span>
                 <span class="eng">j</span>
             </div>
             <div class="key">
-                <span class="rus hidden">л</span>
+                <span class="rus">л</span>
                 <span class="eng">k</span>
             </div>
             <div class="key">
-                <span class="rus hidden">д</span>
+                <span class="rus">д</span>
                 <span class="eng">l</span>
             </div>
             <div class="key">
-                <span class="rus hidden">ж</span>
+                <span class="rus">ж</span>
                 <span class="eng">;</span>
             </div>
             <div class="key">
-                <span class="rus hidden">э</span>
+                <span class="rus">э</span>
                 <span class="eng">'</span>
             </div>
             <div class="key enter"><span>Enter</span></div>
@@ -125,43 +125,43 @@ document.body.insertAdjacentHTML("beforeend", `<h1>RSS Virtual Keyboard</h1>
                 <span>/</span>
             </div>
             <div class="key">
-                <span class="rus hidden">я</span>
+                <span class="rus">я</span>
                 <span class="eng">z</span>
             </div>
             <div class="key">
-                <span class="rus hidden">ч</span>
+                <span class="rus">ч</span>
                 <span class="eng">x</span>
             </div>
             <div class="key">
-                <span class="rus hidden">с</span>
+                <span class="rus">с</span>
                 <span class="eng">c</span>
             </div>
             <div class="key">
-                <span class="rus hidden">м</span>
+                <span class="rus">м</span>
                 <span class="eng">v</span>
             </div>
             <div class="key">
-                <span class="rus hidden">и</span>
+                <span class="rus">и</span>
                 <span class="eng">b</span>
             </div>
             <div class="key">
-                <span class="rus hidden">т</span>
+                <span class="rus">т</span>
                 <span class="eng">n</span>
             </div>
             <div class="key">
-                <span class="rus hidden">ь</span>
+                <span class="rus">ь</span>
                 <span class="eng">m</span>
             </div>
             <div class="key">
-                <span class="rus hidden">б</span>
+                <span class="rus">б</span>
                 <span class="eng">,</span>
             </div>
             <div class="key">
-                <span class="rus hidden">ю</span>
+                <span class="rus">ю</span>
                 <span class="eng">.</span>
             </div>
             <div class="key">
-                <span class="rus hidden">.</span>
+                <span class="rus">.</span>
                 <span class="eng">/</span>
             </div>
             <div class="key"><span>▲</span></div>
@@ -188,18 +188,18 @@ const keyCodes = ['Backquote', 'Digit1', 'Digit2', 'Digit3', 'Digit4', 'Digit5',
 'Enter', 'ShiftLeft', 'IntlBackslash', 'KeyZ', 'KeyX', 'KeyC', 'KeyV', 'KeyB', 'KeyN', 'KeyM', 'Comma', 'Period', 'Slash', 'ArrowUp',
 'ShiftRight', 'ControlLeft', 'OSLeft', 'AltLeft', 'Space', 'AltRight', 'ControlRight', 'ArrowLeft', 'ArrowDown', 'ArrowRight'];
 
-document.addEventListener('keydown', function(event) {
-    let key = document.querySelectorAll(".key");
-    for(let i = 0; i<key.length; i++){
+const keys = document.querySelectorAll(".key");
+const res = document.getElementById('result');
+
+document.addEventListener('keydown', function(event) {    
+    for(let i = 0; i<keys.length; i++){
         if (event.code == keyCodes[i]) {
-            key[i].classList.add('act');
-            setTimeout(() => key[i].classList.remove('act'), 200);
+            keys[i].classList.add('act');
+            setTimeout(() => keys[i].classList.remove('act'), 200);
+            res.focus();
         }
     }
-});
-
-document.addEventListener('click', function(event) {
-
+    res.focus();
 });
 
 function switchLang (func, ...codes) {
@@ -224,17 +224,46 @@ function switchLang (func, ...codes) {
 
 }
 
+const rus = document.querySelectorAll('.rus');
+const eng = document.querySelectorAll('.eng');
+// alert(window.navigator.userLanguage)
+let userLang = localStorage.getItem('lang'); 
+if(userLang == 'ru') {
+    for (let elem of eng) {
+        elem.classList.add('hidden');
+        localStorage.setItem('lang', 'ru');
+    }
+} else for (let elem of rus) {
+    elem.classList.toggle('hidden');
+    localStorage.setItem('lang', 'en');
+    }
+
+
+
 switchLang(
-    () => {
-        let rus = document.querySelectorAll('.rus');
-        let eng = document.querySelectorAll('.eng');
+    () => {        
         for (let elem of rus) {
             elem.classList.toggle('hidden');
         }
         for (let elem of eng) {
             elem.classList.toggle('hidden');
         }
+        if(userLang == 'ru') {
+            localStorage.setItem('lang', 'en'); 
+        } else if (userLang == 'en') {
+            localStorage.setItem('lang', 'ru');
+        }
     },
     "AltLeft",
     "ShiftLeft"
 );
+
+keys.forEach(element => {
+    element.addEventListener('click', function(event) {
+        res.value = res.value + event.target.textContent;
+    });
+}); 
+
+// document.addEventListener('click', function(event) {
+//     res.value = res.value + event.target.textContent;
+// })
