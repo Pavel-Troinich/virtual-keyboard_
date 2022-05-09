@@ -9,6 +9,7 @@ h1, p {
     border: 3px solid #747474;
     border-radius: 10px;
     background: #e0e0e0;
+    font-size: 20px;
 }
 .klaviatura .row{
     width: 100%;
@@ -44,7 +45,7 @@ h1, p {
 }
 .klaviatura .capslock,.klaviatura .shiftL, .klaviatura .shiftR, .klaviatura .tab, .klaviatura .backspace, .klaviatura .del,
 .klaviatura .enter, .klaviatura .ctrlL, .klaviatura .altL, .klaviatura .ctrlR, .klaviatura .altR, .klaviatura .win {
-font-weight: bold;
+color: #acacac;
 }
 .klaviatura .shiftR {
     width: 43px;
